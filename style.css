@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    width: 100vh;
+    margin: 0 20%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+    gap: 50px;
+}
+
+header .headimg img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.content h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+.content table .upper {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+table tr td{
+    padding: 10px;
+}
+
+table tr td img {
+    width: 150px;
+}
+
+footer {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
