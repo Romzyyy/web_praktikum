@@ -39,15 +39,37 @@ table tr td {
     width: 200px;
     padding: 10px;
 }
+
+table tr td input {
+    padding: 3px;
+    border-radius: 4px;
+}
+
+table tr td select {
+    width: 184px;
+    padding: 3px;
+    border-radius: 4px;
+}
+
+table tr td .submit {
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(0, 132, 255);
+}
+
 table tr td img {
     width: 150px;
     height: 100px;
     border-radius: 10px;
 }
 footer {
-    margin-top: 100px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
 }

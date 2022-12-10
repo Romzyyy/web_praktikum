@@ -46,7 +46,7 @@
     <form action="kasir.php" method="post"> 
         <table>
             <tr>
-                <td>Nama Barang</td>
+                <td>Pilih Menu</td>
                 <td>:</td>
                 <td>
                     <?php
@@ -67,14 +67,14 @@
                 <td><input type="number" name="harga" placeholder="Masukan harga"></td>
             </tr>
             <tr>
-                <td>Jumlah Barang</td>
+                <td>Jumlah Porsi</td>
                 <td>:</td>
-                <td><input type="number" name="jumlah" placeholder="Masukan jumlah barang"></td>
+                <td><input type="number" name="jumlah" placeholder="Masukan jumlah porsi"></td>
             </tr>
             <tr>
                 <td></td>
                 <td></td>
-                <td align="center"><input type="submit" name="simpan" value="Submit"></td>
+                <td align="center"><input type="submit" name="simpan" value="Submit" class="submit"></td>
             </tr>
         </table>
     </form>
