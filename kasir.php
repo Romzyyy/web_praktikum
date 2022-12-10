@@ -36,7 +36,7 @@ $hasil = $harga * $jumlah;
             <tr>
                 <td>Harga</td>
                 <td>:</td>
-                <td><?php echo $harga ?></td>
+                <td>Rp. <?php echo number_format($harga,2,",",".")?></td>
             </tr>
             <tr>
                 <td>Porsi</td>
@@ -46,13 +46,13 @@ $hasil = $harga * $jumlah;
             <tr>
                 <td>Total Bayar</td>
                 <td>:</td>
-                <td><?php echo $hasil ?></td>
+                <td>Rp. <?php echo number_format($hasil,2,",",".")?></td>
             </tr>
             <tr>
                 <td colspan="3"><button><a href="index.php">Kembali</a></button></td>
             </tr>
         </table>
-        
+
     </div>
     <footer>
         <div class="footername">
