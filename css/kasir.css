@@ -29,7 +29,8 @@ header .headimg img {
 }
 table {
     width: 100%;
-    text-align: center;
+    background-color: aqua;
+    text-align: left;
 }
 .content table .upper {
     font-weight: bold;

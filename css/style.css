@@ -6,6 +6,7 @@
 body {
     width: 100vh;
     margin: 0 20%;
+    background-color: blueviolet;
 }
 header {
     margin-top: 0px;
